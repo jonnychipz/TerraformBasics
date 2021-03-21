@@ -11,7 +11,6 @@ terraform {
     container_name        = "tstate"
     key                   = "terraform.tfstate"
     }
-
 }
 # Configure the Microsoft Azure Provider
 provider "azurerm" {
