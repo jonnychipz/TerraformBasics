@@ -20,7 +20,7 @@ provider "azurerm" {
 # Create a resource group
 resource "azurerm_resource_group" "myrg" {
   name     = "jonnychipz-rg"
-  location = "UK South"
+  location = var.primary_location
 }
 
 # Create a virtual network within the resource group
